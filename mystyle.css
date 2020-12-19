@@ -39,7 +39,7 @@
     margin-left: -4rem
   }
 
-  .bg{
+  .desk .bg{
     background-image: url('images/Trusted-By-Bg.jpg');
     background-size: cover;
 }
@@ -185,9 +185,12 @@
     color: rgb(0 0 0 / 95%);
     border-color: rgb(0 0 0 / 96%);
 }
+.mob .card8{
+    display: none;
+}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-device-width: 0px) and (max-device-width: 768px) {
    .nav-desktop{
        display:none;
    }
@@ -203,6 +206,24 @@
 .navbar-light .navbar-toggler {
     color: rgb(0 0 0 / 95%);
     border-color: rgb(0 0 0 / 96%);
+}
+.desk .card2{
+    display: none;
+}
+.mob .card8{
+    background-image: url("../IamFrost.github.io/images/yy/Trusted-By-Bg.jpg");
+}
+.mob .card8-footer{
+    height: 19rem;
+    background-color: #14165d;
+    width: 55.8rem;
+    margin-left: 0rem;
+}
+.mob .card8-footer{
+    height: 19rem;
+    width: auto;
+    background-color: #162a4e;
+    margin-left: 0.1px;
 }
    
 }
